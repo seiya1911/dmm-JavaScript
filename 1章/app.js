@@ -15,6 +15,7 @@ if (user_hand != null){
 function getJShand(){
   var js_hand_num = Math.floor(Math.random() * 3);
   var hand;
+
   if (js_hand_num == 0){
     hand = "グー";
   } else if (js_hand_num == 1){
